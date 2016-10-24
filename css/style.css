@@ -1,0 +1,268 @@
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav_bar_custom{
+   font-size:1.5em;
+   font-family: 'Open Sans', sans-serif;
+   font-weight:800;   
+}
+
+.custom_container{
+    padding:0;
+}
+
+.nav_bar_custom a{
+    color:white;
+}
+
+.nav_bar_custom a:hover{
+    color:grey;
+}
+
+.nav_toggle_c{
+   background:none;
+}
+
+.nav_toggle_c span{
+    color:white;
+    background:none;
+    font-size:1.9em;
+}
+
+
+.home_container{
+    margin:0px;
+    padding:0px;
+    height:100vh;
+    width:100vw;
+    background-image:url(../images/bridge.gif);
+    background-size: 100vw 100vh;   
+}
+
+.down_button{
+    position: absolute;
+    left:50%;
+    top:95%;
+    transform:translate(-50,-95);
+    text-align:center; 
+    -webkit-animation:scrollButton 1s infinite;
+    animation:scrollButton 1s infinite;
+}
+
+@-webkit-keyframes scrollButton{
+    0% {top:95%};
+    50% {top:93%};
+    100% {top:95%};
+}
+@keyframes scrollButton{
+    0% {top:90%};
+    25% {top:93%};
+    50% {top:95%};
+    75% {top:93%};
+    100% {top:90%};
+}
+
+.down_button:hover, .down_button:focus, .down_button:active{
+    -webkit-animation-play-state:paused; 
+    -moz-animation-play-state:paused;
+     animation-play-state:paused;
+     outline: none;
+}
+
+.down_button button{
+   font-size:2em;
+   border-radius:50%;
+   background:none; 
+   border:2px solid white;
+   height:40px;
+   width:40px;
+   outline:none;
+}
+
+.down_button a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.home_bg{
+ position:relative;
+ margin:0 auto;
+ top:33%;
+ transform: translate(-50,-50);
+ color:snow;
+ font-size: 2.5em;
+ font-family: 'Comfortaa', cursive;
+ font-weight: 500;
+ text-align:center;
+}
+
+#jasil_image{
+ border-radius:150px;
+ margin:0 auto;
+ border:2px solid silver;
+}
+
+.my_name_intro{
+    padding-bottom : 10px;
+}
+
+.social_contacts{
+   list-style:none;
+   display: inline-flex;
+   padding-left: 0px;  
+}
+
+.social_home_contact{
+    border-top:2px solid silver;
+    padding-top: 10px;
+}
+
+.social_contacts img{
+    margin: 3px;
+    width:64px;
+    height:64px;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.about_me{
+   width:100%;
+   background: #333333;
+   margin:20px 0;
+   padding:30px 20px;
+   color:white;
+   font-family: 'Work Sans', sans-serif;
+   font-size:1.4em;
+}
+
+.projects{
+    width:100%;
+    margin:0;
+    padding:0;
+    background:#60CDFC;
+    font-family: 'Work Sans', sans-serif;
+    font-size:1.4em;
+}
+
+.projects h2{
+    margin-left:20px;
+}
+
+.project_description{
+    margin:6px 0px;
+    padding:5px 20px;
+}
+
+.align_img{
+    padding-left:0px;
+}
+
+.align_text{
+    padding-left:5px;
+}
+
+.odd_align{
+    background:#4F4F4F;
+    color:white;
+}
+
+.odd_align .project_image{
+    border-radius:1%;
+    border:2px solid #313030;
+    box-shadow: 4px 5px 10px 2px #313030;
+}
+
+.even_align{
+    background: #4390bc;
+    color:white;
+}
+
+.even_align .project_image{
+    border:2px solid #265974;
+    box-shadow: 4px 5px 10px 2px #265974;
+}
+
+
+
+.more_projects{
+    margin:20px 0 10px 0;
+    text-align:center;
+    background:#232323;
+    width:100%;
+    color:white;
+    
+}
+.more_projects img{
+    width:64px;
+    height:64px;
+    display:inline;
+}
+
+.contact_align{
+    width:100%;
+    background: #4f819b;
+    margin:20px 0px 5px 0px;
+    padding:0 20px;
+    color:white;
+    
+}
+
+.contact_rom{
+    text-align:center;
+}
+@media only screen and (max-width: 500px){
+
+.nav_bar_custom{
+    font-size:1.2em; 
+}
+
+.home_bg{
+ font-size: 2.0em;
+ text-align:center;
+}
+
+.social_contacts img{
+    margin-right:8px;
+    width:48px;
+    height:48px;
+}
+
+#jasil_image{
+ width:90;
+ height:87;
+ border-radius:150px;
+ margin:0 auto;
+}
+    
+.more_projects img{
+    width:42px;
+    height:42px;
+    margin:0 5px;
+}
+    
+.down_button button{
+   font-size:1.5em;
+   background:none; 
+   border:2px solid white;
+   height:35px;
+   width:35px;
+   outline:none;
+}
+.about_me{
+   padding:10px 20px 20px 20px;
+   font-size: 1.2em;
+   
+}
+.projects{
+    font-size: 1.2em;
+    }
+}
