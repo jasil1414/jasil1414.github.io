@@ -36,31 +36,29 @@
     padding:0px;
     height:100vh;
     width:100vw;
-    background-image:url(../images/bridge.gif);
+    background-image:url(../images/nethravathi.JPG);
     background-size: 100vw 100vh;   
 }
 
 .down_button{
-    position: absolute;
-    left:49%;
-    top:95%;
-    transform:translate(-49,-95);
+    position:absolute;
+    opacity:0.3;
+    top:90%;
     text-align:center; 
-    -webkit-animation:scrollButton 1s infinite;
-    animation:scrollButton 1s infinite;
+    -webkit-animation:scrollButton 0.9s infinite;
+    animation:scrollButton 0.9s infinite;
 }
 
 @-webkit-keyframes scrollButton{
-    0% {top:95%};
-    50% {top:93%};
-    100% {top:95%};
+   0% {top:93%};
+    50% {top:90%};
+    100% {top:93%};
 }
 @keyframes scrollButton{
-    0% {top:90%};
-    25% {top:93%};
-    50% {top:95%};
-    75% {top:93%};
-    100% {top:90%};
+    0% {top:93%};
+    50% {top:90%};
+    100% {top:93%};
+    
 }
 
 .down_button:hover, .down_button:focus, .down_button:active{
@@ -71,7 +69,7 @@
 }
 
 .down_button button{
-   font-size:2em;
+   font-size:1.8em;
    border-radius:50%;
    background:none; 
    border:2px solid white;
@@ -143,7 +141,13 @@ h3{
    font-family: 'Work Sans', sans-serif;
    font-size:1.4em;
 }
-
+.about_me a{
+    text-decoration: none;
+    color:#6281c6;
+}
+.about_me a:hover{
+    color:#396ee5
+}
 .projects{
     width:100%;
     margin:0;
@@ -201,6 +205,14 @@ h3{
     color:white;
     
 }
+.more_projects a{
+    color:#6281c6;
+}
+
+.more_projects a:hover{
+    color:#396ee5;
+}
+
 .more_projects img{
     width:64px;
     height:64px;
@@ -212,13 +224,24 @@ h3{
     background: #4f819b;
     margin:20px 0px 5px 0px;
     padding:0 20px;
-    color:white;
-    
+    color:white;  
 }
 
 .contact_rom{
     text-align:center;
 }
+.resume{
+    padding:0;
+}
+
+.resume button{
+    background:#313030;
+    float:right;
+    border-radius:10%;
+    font-size: 1.2em;
+    border:2px solid #313030;
+}
+
 @media only screen and (max-width: 500px){
 
 .nav_bar_custom{
