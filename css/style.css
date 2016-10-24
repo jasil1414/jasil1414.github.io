@@ -42,9 +42,9 @@
 
 .down_button{
     position: absolute;
-    left:50%;
+    left:49%;
     top:95%;
-    transform:translate(-50,-95);
+    transform:translate(-49,-95);
     text-align:center; 
     -webkit-animation:scrollButton 1s infinite;
     animation:scrollButton 1s infinite;
